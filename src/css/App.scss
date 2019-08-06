@@ -72,8 +72,19 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  
+  min-height: 100vh;
+  background: url(http://loremflickr.com/g/1200/500/boat) no-repeat;
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
 }
+
+  .cell {
+    width: 33.3333%;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+  }
 
 .contactForm {
   display: flex;
