@@ -1,5 +1,5 @@
 nav {
-  background: #282c34;
+  background: #0b3c5d;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -26,7 +26,12 @@ nav {
       margin: 1rem 0;
       line-height: 1;
       text-decoration: none;
-      padding: 1rem;
+      padding: 1.2rem;
+
+      &:hover, &:focus {
+        background: #282c34;
+        outline: none;
+      }
     }
   }
 
@@ -75,13 +80,14 @@ nav {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center;
-
+  
   form {
+    width: 320px;
     border: 1px solid #606060;
     border-radius: 4px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 1rem;
   }
 }

@@ -7,7 +7,7 @@ class Contact extends React.Component {
             <div>
                 <Header />
                 <div className="contactForm">
-                    <h5>Contact me </h5>
+                    <h3>Contact me </h3>
                     <form>
                         <label>Name</label>
                         <input

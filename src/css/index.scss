@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+label {
+  line-height: 1;
+  font-size: 1.2em;
+  margin: 1rem 0.5rem;
+}
+
+input {
+  height: 2rem;
+  font-size: 1.25rem;
+  color: #0a0a0a;
+  margin-bottom: 1rem;
+}
+
+textarea:focus, input:focus {
+  outline: none;
+}
