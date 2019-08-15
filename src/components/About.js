@@ -7,19 +7,9 @@ class About extends React.Component {
             <div>
                 <Header />
                 <div className="aboutDisplay">
-                {/* <img src='http://loremflickr.com/g/250/150/boat' alt=''/> */}
-                    <div className="cell column-1">
-                        <h2>Column 1</h2>
-                        <p>church-key pork belly Portland direct trade  hoodie polaroid before they sold out photo booth Marfa tousled mixtape deep v Cosby sweater readymade kogi aesthetic axe PBR&B meh farm-to-table selvage post-ironic quinoa</p>
-                    </div>
-                    <div className="cell column-2">
-                        <h2>COLMUN 2</h2>
-                        <p>Intelligentsia Godard synth kale chips Neutra gluten-free High Life banh mi mixtape whatever tofu vinyl cleanse post-ironic authentic cray Portland retro Austin Williamsburg banjo Echo Park crucifix pour-over readymade</p>
-                    </div>
-                    <div className="cell column-3">
-                        <h2>COLMUN 3</h2>
-                        <p>tousled beard scenester sartorial Marfa swag McSweeney's hashtag twee Truffaut chambray direct trade  four loko crucifix selfies retro biodiesel umami pug Williamsburg authentic 3 wolf moon iPhone Tonx raw denim quinoa</p>
-                    </div>
+                    <p>
+                        I begin working for my father-in-law in 1984, who was a builder/master cabinetmaker. training under him for 15 yrs. became lead builder /installer and trim man for Collins Custom Cabinets 1998 I left to be production manager for NWA custom cabinets, became partner and quality control mgr. Becker Hill const. a residential framing company. started Southwind log home const. specializing in log homes in northwest Arkansas, worked in the stainless steel metal fabrication field as assistant manager/ traffic manager, left to start Elevation Construction and Carpentry in 2010, projects ranging from ground up to simple kitchen/Bath remodels, trim work, tile, etc.at Elevation Const. we strive to " Take your project to a Higher level " whatever the size.
+                    </p>
                 </div>
             </div>
         )

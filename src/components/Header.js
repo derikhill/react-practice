@@ -1,12 +1,14 @@
 import React from 'react';
+import logo from '../css/elevation.webp';
 import { Link } from 'react-router-dom';
 
 class Header extends React.Component {
+
     render() {
         return (
             <nav>
                 <div>
-                    <h3><Link to="/">React Practice</Link></h3>
+                    <Link to="/"><h3><img src={logo} className="App-logo" alt="logo" /> </h3></Link>
                 </div>
                 <div>
                     <ul>
