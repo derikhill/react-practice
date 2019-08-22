@@ -1,7 +1,10 @@
 import React from 'react';
-import Header from './Header';
 import '../css/App.scss';
 import Image from '../css/cabinet-counter-small.jpg'
+import Toolbar from './Toolbar/Toolbar';
+import SideDrawer from './SideDrawer/SideDrawer';
+import Backdrop from './Backdrop/Backdrop'
+// import backdrop from './Backdrop/Backdrop';
 
 const styles = {
   imageContainer: {
@@ -15,7 +18,9 @@ class App extends React.Component {
   render () {
     return (
       <div className="App">
-        <Header />
+        <Backdrop />
+        <Toolbar />
+        <SideDrawer />
         <div className="main-body-content" style={styles.imageContainer}>
           <div className="content-text">
             <div className="cell column-1">

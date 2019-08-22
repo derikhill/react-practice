@@ -1,11 +1,11 @@
 import React from 'react';
-import Header from './Header';
+import Toolbar from './Toolbar/Toolbar';
 
 class Contact extends React.Component {
     render() {
         return (
             <div>
-                <Header />
+                <Toolbar />
                 <div className="contactForm">
                     <h3>Contact me </h3>
                     <form>
