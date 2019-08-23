@@ -15,12 +15,30 @@ const styles = {
 }
 
 class App extends React.Component {
+  state = {
+    sideDrawerOpen: false
+  };
+
+  drawerToggler = () => {
+    this.setState((prevState) => {
+      return {sideDrawerOpen: !prevState.sideDrawerOpen}
+    })
+  };
+
   render () {
+    let sideDrawer;
+    let backdrop;
+
+    if (this.state.sideDrawerOpen) {
+      sideDrawer = <SideDrawer />;
+      backdrop = <Backdrop />;
+    }
+
     return (
       <div className="App">
-        <Backdrop />
-        <Toolbar />
-        <SideDrawer />
+        <Toolbar drawerClickHandler={this.drawerToggler}/>
+        {sideDrawer}
+        {backdrop}
         <div className="main-body-content" style={styles.imageContainer}>
           <div className="content-text">
             <div className="cell column-1">
