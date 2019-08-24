@@ -6,13 +6,13 @@ import Hamburger from '../SideDrawer/Hamburger'
 
 const Toolbar = props => (
     <nav className="toolbar-nav">
-        <Hamburger />
+        <Hamburger click={props.drawerOpener} />
         <div>
             <Link to="/"><h3><img src={logo} className="App-logo" alt="logo" /> </h3></Link>
         </div>
         <div className="spacer" />
         <div>
-            <ul>
+            <ul className="toolbar-nav-items">
                 <li><Link to="/About">About</Link></li>
                 <li><Link to="/Contact">Contact</Link></li>
             </ul>

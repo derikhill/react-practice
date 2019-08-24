@@ -7,7 +7,7 @@
     background: transparent;
     border: none;
     cursor: pointer;
-    padding: 0 1rem;
+    margin: 0 1rem;
     box-sizing: border-box;
 
     &:focus {
@@ -25,13 +25,15 @@
 .sidedrawer-nav {
     height: 100%;
     background: white;
-    box-shadow: 2px 0 5px rgba(0,0,0,0.5);
+    box-shadow: 1px 0 7px rgba(0,0,0,0.5);
     position: fixed;
     top: 0;
     left: 0;
     width: 70%;
     max-width: 250px;
     z-index: 200;
+    transform: translateX(-100%); 
+    transition: transform 0.3 ease-out;
 
     ul {
         list-style: none;
@@ -52,5 +54,15 @@
         &:hover, &:active, &:focus {
             color: #404042;
         }
+    }
+}
+
+.sidedrawer-nav.open {
+    transform: translateX(0)
+}
+
+@media (min-width: 769px) {
+    .hamburger-button {
+        display: none;
     }
 }

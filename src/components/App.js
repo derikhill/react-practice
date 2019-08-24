@@ -25,19 +25,21 @@ class App extends React.Component {
     })
   };
 
-  render () {
-    let sideDrawer;
-    let backdrop;
+  backdropToggler = () => {
+    this.setState({sideDrawerOpen: false})
+  };
 
+  render () {
+    let backdrop;
+  
     if (this.state.sideDrawerOpen) {
-      sideDrawer = <SideDrawer />;
-      backdrop = <Backdrop />;
-    }
+      backdrop = <Backdrop click={this.backdropToggler} />;
+  }
 
     return (
       <div className="App">
-        <Toolbar drawerClickHandler={this.drawerToggler}/>
-        {sideDrawer}
+        <Toolbar drawerOpener={this.drawerToggler}/>
+        <SideDrawer show={this.state.sideDrawerOpen} />
         {backdrop}
         <div className="main-body-content" style={styles.imageContainer}>
           <div className="content-text">
