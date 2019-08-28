@@ -43,14 +43,22 @@ class App extends React.Component {
         <SideDrawer show={this.state.sideDrawerOpen} />
         {backdrop}
         <div className="main-body-content" style={styles.imageContainer}>
-          <div className="content-text">
+          <div className="hero-image">
+            <h2>
+              Let Elevation Construction take your next project to a higher level
+            </h2>
+          </div>
+        </div>
+        <div className="red-back">
+          <div className="what-we-do">
             <div className="cell column-1">
-              <h3>Elevation Construction is based in Northwest Arkansas working in Bentonville, Rogers, Fayetteville and surrounding areas. We have been in construction for over 30 years.</h3>
+              <h2>Elevation Construction is based in Northwest Arkansas working in Bentonville, Rogers, Fayetteville and surrounding areas. We have been in construction for over 30 years.</h2>
             </div>
             <div className="cell column-2">
-              <h3>If you are looking for new home construction, remodeling, deck building or cabinetry we can handle it all. Contact us to see how we can help with your ideas.</h3>
+              <h2>If you are looking for new home construction, remodeling, deck building or cabinetry we can handle it all. Contact us to see how we can help with your ideas.</h2>
             </div>
           </div>
+          <button>See What We Can Do For You</button>
         </div>
       </div>
     )

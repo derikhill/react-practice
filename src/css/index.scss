@@ -28,3 +28,14 @@ input {
 textarea:focus, input:focus {
   outline: none;
 }
+
+button {
+  border: 1px solid #ffffff;
+  background: #4B1421;
+  border-radius: 2px;
+  color: #ffffff;
+  line-height: 1.2;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  margin: 1rem;
+}

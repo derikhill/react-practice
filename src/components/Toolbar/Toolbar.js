@@ -8,7 +8,7 @@ const Toolbar = props => (
     <nav className="toolbar-nav">
         <Hamburger click={props.drawerOpener} />
         <div>
-            <Link to="/"><h3><img src={logo} className="App-logo" alt="logo" /> </h3></Link>
+            <Link to="/"><p><img src={logo} className="App-logo" alt="logo" /></p></Link>
         </div>
         <div className="spacer" />
         <div>

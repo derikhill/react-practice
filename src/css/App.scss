@@ -1,41 +1,22 @@
-.App-logo {
-  text-align: center;
-  // animation: App-logo-spin infinite 20s linear;
-  height: 20vmin;
-  pointer-events: none;
+.hero-image {
+  min-height: 100vh;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background: rgba(100, 100, 100, 0.7);
 }
 
-.main-body-content {
+.red-back {
+  background-color: #4B1421;
+  padding: 4rem;
 
-  .content-text {
-    min-height: 100vh;
-    align-items: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-    background: rgba(100, 100, 100, 0.7);
-  }
-
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  .cell {
+    color: #ffffff;
+  } 
 }
 
 .aboutDisplay {
-  // display: flex;
-  // flex-direction: row;
-  // justify-content: space-between;
   min-height: 100vh;
-  background: url(http://loremflickr.com/g/1200/500/boat) no-repeat;
   padding-left: 0.625rem;
   padding-right: 0.625rem;
 }
@@ -71,23 +52,13 @@
 }
 
 @media (min-width: 769px) {
-  .main-body-content {
-    .content-text {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-    }
+  .hero-image, .what-we-do {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
 
   .cell {
     width: 33.3333%;
   }
 }
-
-// .inactive {
-//   background: #0b3c5d;
-// }
-
-// .is-active {
-//   background: #328cc1;
-// }

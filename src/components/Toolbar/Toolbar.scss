@@ -1,18 +1,24 @@
 .toolbar-nav {
-    background: #4B1421;
+    background: #ffffff;
     display: flex;
     flex-direction: row;
     align-items: center;
-    
-    h3 {
-      cursor: pointer;
-      margin-left: 2rem;
-      
-      a {
-        text-decoration: none;
-      }
+    margin: 0 2rem;
+
+    // temporarily putting in until a logo is made
+    p {
+        margin: 0;
     }
     
+    .App-logo {
+        cursor: pointer;
+        text-align: center;
+        // animation: App-logo-spin infinite 20s linear;
+        height: 25vmin;
+        pointer-events: none;
+        text-decoration: none;
+    }      
+
     .spacer {
         flex: 1;
     }
@@ -23,8 +29,9 @@
       display: inline;
       
       a {
-        color: #EAEAEA;
+        color: #4B1421;
         margin: 1rem 0;
+        font-size: 1.2rem;
         line-height: 1;
         text-decoration: none;
         padding: 1.2rem;
