@@ -1,9 +1,15 @@
 .hero-image {
+  display: flex;
   min-height: 100vh;
   align-items: center;
   font-size: calc(10px + 2vmin);
   color: white;
   background: rgba(100, 100, 100, 0.7);
+
+  h2 {
+    max-width: 600px;
+    text-align: center;
+  }
 }
 
 .red-back {

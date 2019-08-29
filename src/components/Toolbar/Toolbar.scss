@@ -45,6 +45,10 @@
 }
 
 @media (max-width: 768px) {
+  .toolbar-nav {
+    margin-left: 1rem;
+  }
+
     .toolbar-nav-items {
         display: none;
     }

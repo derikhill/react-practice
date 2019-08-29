@@ -7,7 +7,7 @@
     background: transparent;
     border: none;
     cursor: pointer;
-    margin: 0 1rem;
+    margin: 0 1.2rem 0 0.5rem;
     box-sizing: border-box;
 
     &:focus {
@@ -17,7 +17,8 @@
     .hamburger-patty {
         width: 30px;
         height: 2px;
-        background: white;
+        margin: 2px;
+        background: #4B1421;
     }
 
 }
