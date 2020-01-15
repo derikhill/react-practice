@@ -1,6 +1,7 @@
 import React from 'react';
 import '../css/App.scss';
-import Image from '../css/cabinet-counter-small.jpg'
+import Image from '../css/cabinet-counter-small.jpg';
+import { Link } from 'react-router-dom';
 import Toolbar from './Toolbar/Toolbar';
 import SideDrawer from './SideDrawer/SideDrawer';
 import Backdrop from './Backdrop/Backdrop'
@@ -58,7 +59,7 @@ class App extends React.Component {
               <h2>If you are looking for new home construction, remodeling, deck building or cabinetry we can handle it all. Contact us to see how we can help with your ideas.</h2>
             </div>
           </div>
-          <button>See What We Can Do For You</button>
+          <button className="checkUsOut"><Link to="/Contact">See What We Can Do For You</Link></button>
         </div>
       </div>
     )

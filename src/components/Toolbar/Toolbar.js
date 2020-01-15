@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from './elevation.webp';
+import logo from './elevation.png';
 import './Toolbar.scss';
 import Hamburger from '../SideDrawer/Hamburger'
 
