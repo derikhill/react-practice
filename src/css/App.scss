@@ -14,7 +14,7 @@
 
 .red-back {
   background-color: #4B1421;
-  padding: 4rem;
+  padding: 4rem 0.5rem;
 
   .cell {
     color: #ffffff;
@@ -61,6 +61,12 @@
   }
 }
 
+@media (max-width: 414px) {
+  .checkUsOut {
+    width: 100%;
+  }
+}
+
 @media (min-width: 769px) {
   .hero-image, .what-we-do {
     display: flex;
@@ -70,5 +76,13 @@
 
   .cell {
     width: 33.3333%;
+  }
+
+  .red-back {
+    padding: 4rem;
+  }
+
+  .checkUsOut {
+    margin-left: 4rem;
   }
 }

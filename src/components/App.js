@@ -12,7 +12,9 @@ const styles = {
       height: 'auto',
       width: '100%',
       backgroundImage: `url(${Image})`,
-      backgroundRepeat: 'no-repeat'
+      backgroundRepeat: 'no-repeat',
+      backgroundPosition: 'center',
+      backgroundSize: 'cover'
   }
 }
 
