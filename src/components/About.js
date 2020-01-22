@@ -1,7 +1,8 @@
 import React from 'react';
 import Toolbar from './Toolbar/Toolbar';
 import SideDrawer from './SideDrawer/SideDrawer';
-import Backdrop from './Backdrop/Backdrop'
+import Backdrop from './Backdrop/Backdrop';
+import Footer from './Footer/Footer';
 
 class About extends React.Component {
     state = {
@@ -47,6 +48,7 @@ class About extends React.Component {
                         </p>
                     </div>
                 </div>
+                <Footer />
             </div>
         )
     }

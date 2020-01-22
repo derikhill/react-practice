@@ -1,0 +1,21 @@
+footer {
+    background: #1E1C1A;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+
+    p {
+        color: #A5A4A3;
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 414px) {
+    footer {
+        p {
+            max-width: 330px;
+        }
+    }
+}

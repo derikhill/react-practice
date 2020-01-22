@@ -4,8 +4,8 @@ import Image from '../css/cabinet-counter-small.jpg';
 import { Link } from 'react-router-dom';
 import Toolbar from './Toolbar/Toolbar';
 import SideDrawer from './SideDrawer/SideDrawer';
-import Backdrop from './Backdrop/Backdrop'
-// import backdrop from './Backdrop/Backdrop';
+import Backdrop from './Backdrop/Backdrop';
+import Footer from './Footer/Footer';
 
 const styles = {
   imageContainer: {
@@ -63,6 +63,7 @@ class App extends React.Component {
           </div>
           <button className="checkUsOut"><Link to="/Contact">See What We Can Do For You</Link></button>
         </div>
+        <Footer />
       </div>
     )
   }

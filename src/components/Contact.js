@@ -2,6 +2,7 @@ import React from 'react';
 import Toolbar from './Toolbar/Toolbar';
 import SideDrawer from './SideDrawer/SideDrawer';
 import Backdrop from './Backdrop/Backdrop';
+import Footer from './Footer/Footer';
 import axios from 'axios';
 
 const API_PATH = 'http://localhost:3000/react-practice/api/contact.php';
@@ -93,6 +94,7 @@ class Contact extends React.Component {
                         </div>
                     </form>
                 </div>
+                <Footer />
             </div>
         )
     }
